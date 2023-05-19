@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "platforms",
+  "info": {
+    "singularName": "platform",
+    "pluralName": "platforms",
+    "displayName": "platform",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    },
+    "detail": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::detail.detail",
+      "inversedBy": "platforms"
+    }
+  }
+}

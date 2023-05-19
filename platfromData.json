@@ -1,0 +1,86 @@
+[
+  {
+    "technology": [
+      {
+        "name": "NFT",
+        "marker": "#eb3795"
+      },
+      {
+        "name": "Polygon",
+        "marker": "#8642ca"
+      },
+      {
+        "name": "Auction",
+        "marker": "#2cc0a6"
+      }
+    ],
+    "description": "Liquid Access is a blockchain-based subscription management tool that generates NFT tokens for users with memberships or subscriptions to partner services. Our team developed a complete solution, including smart contracts, backend, frontend, and full QA. We used the Polygon Network for low gas fees and developed EIP721 project token, API architecture, subscription service, and auction bidding platform. As a result, Liquid Access has successfully launched and it enhances the crypto world with an efficient way to manage, transfer, or sell subscriptions using NFTs.",
+    "paltfornName": "Liquid Access"
+  },
+
+  {
+    "technology": [
+      {
+        "name": "NFT",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "P2P",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "Binance",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "P2E",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "DeFI",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "GameFi",
+        "marker": "#EB3795"
+      }
+    ],
+    "description": "CryptoSerpent is a nostalgic play-to-earn game that combines the classic Snake gameplay with blockchain technologies, targeting gamers aged 14-30. Our team developed a complete solution for the project, including organizing a successful NFT sale of “eggs” to fund development. We provided a full package of services such as smart contract development, backend, frontend, game logic, and testing. The project resulted in a successful play-to-earn game launch, with several updates that introduced a P2P marketplace and the ability to exchange NFTs. CryptoSerpent offers an engaging gaming experience while allowing players to earn real cryptocurrency.",
+    "paltfornName": "CryptoSerpent"
+  },
+
+  {
+    "technology": [
+      {
+        "name": "NFT",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "Swap",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "Staking",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "P2P",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "DeX",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "Ethereum",
+        "marker": "#EB3795"
+      },
+      {
+        "name": "Binance",
+        "marker": "#EB3795"
+      }
+    ],
+    "description": "Nimbus Platform, a DeFi solutions provider, strives to build a user-friendly platform that combines multiple financial instruments. Our team developed smart contracts, backend and frontend solutions, and performed full product testing. We delivered over a dozen products, including affiliate programs, a swap engine, staking scenarios, governance, lending/borrowing ecosystem, cross-chain token wrapping, P2P exchange, financial derivative NFT token, and cash flow analytics. As a result, Nimbus Platform received a comprehensive DeFi platform that outperforms many big competitors in functionality and continues to evolve successfully.",
+    "paltfornName": "Nimbus Platform"
+  }
+]
