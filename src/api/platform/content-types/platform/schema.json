@@ -4,7 +4,7 @@
   "info": {
     "singularName": "platform",
     "pluralName": "platforms",
-    "displayName": "platform",
+    "displayName": "Platform",
     "description": ""
   },
   "options": {
@@ -12,14 +12,105 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "data": {
-      "type": "json"
+    "services": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "options": [
+        "Swap",
+        "Staking",
+        "DeX",
+        "Ethereum",
+        "GameFi",
+        "DeFi",
+        "P2P",
+        "P2E",
+        "Binance",
+        "NFT",
+        "Polygon",
+        "Auction",
+        "Marketplace",
+        "Art",
+        "Custodian",
+        "Casino",
+        "Wallet",
+        "Crypto",
+        "Generator",
+        "Token",
+        "Web3"
+      ]
     },
-    "detail": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::detail.detail",
-      "inversedBy": "platforms"
+    "summary": {
+      "type": "richtext"
+    },
+    "network": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "options": [
+        "Ethereum and Binance",
+        "Binance Smart Chain",
+        "Polygon",
+        ""
+      ]
+    },
+    "backEnd": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "options": [
+        "Node.js, ",
+        "web3.js,",
+        "Sequelize,",
+        "Apollo-Client,",
+        "Apollo-Server,",
+        "GraphQL,",
+        "LogDNA,",
+        "Express.js,"
+      ]
+    },
+    "database": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "options": [
+        "PostgreSQL"
+      ]
+    },
+    "blockchain": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "options": [
+        "Solidity,",
+        "Hardhat,",
+        "Node.js,",
+        "ethers.js"
+      ]
+    },
+    "frontEnd": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "options": [
+        "React.js,",
+        "web3.js,",
+        "Apollo-Client,",
+        "GraphQL,",
+        ""
+      ]
+    },
+    "infrastructure": {
+      "type": "customField",
+      "customField": "plugin::multi-select.multi-select",
+      "options": [
+        "GitHub",
+        "heroku ",
+        "Git"
+      ]
+    },
+    "platformLink": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "paltformName": {
+      "type": "string"
     }
   }
 }
