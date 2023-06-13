@@ -4,7 +4,7 @@
   "info": {
     "singularName": "platform",
     "pluralName": "platforms",
-    "displayName": "Platform",
+    "displayName": "platform",
     "description": ""
   },
   "options": {
@@ -14,18 +14,17 @@
   "attributes": {
     "services": {
       "type": "customField",
-      "customField": "plugin::multi-select.multi-select",
       "options": [
         "Swap",
         "Staking",
+        "NFT",
+        "P2P",
         "DeX",
         "Ethereum",
+        "Binance",
         "GameFi",
         "DeFi",
-        "P2P",
         "P2E",
-        "Binance",
-        "NFT",
         "Polygon",
         "Auction",
         "Marketplace",
@@ -36,77 +35,75 @@
         "Crypto",
         "Generator",
         "Token",
-        "Web3",
-        "Collection"
-      ]
+        "Web3"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     },
     "summary": {
       "type": "richtext"
     },
     "network": {
       "type": "customField",
-      "customField": "plugin::multi-select.multi-select",
       "options": [
         "Ethereum and Binance",
         "Binance Smart Chain",
-        "Polygon",
         "Ethereum",
         "Binance",
-        ""
-      ]
+        "Polygon"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     },
     "backEnd": {
       "type": "customField",
-      "customField": "plugin::multi-select.multi-select",
       "options": [
-        "Node.js, ",
+        "Node.js,",
         "web3.js,",
         "Sequelize,",
-        "Apollo-Client,",
+        "Apollo - Client,",
         "Apollo-Server,",
         "GraphQL,",
         "LogDNA,",
-        "Express.js,",
         "Cloudinary,",
-        "IPFS,"
-      ]
+        "IPFS,",
+        "Express.js,"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     },
     "database": {
       "type": "customField",
-      "customField": "plugin::multi-select.multi-select",
       "options": [
         "PostgreSQL"
-      ]
+      ],
+      "customField": "plugin::multi-select.multi-select"
     },
     "blockchain": {
       "type": "customField",
-      "customField": "plugin::multi-select.multi-select",
       "options": [
         "Solidity,",
         "Hardhat,",
         "Node.js,",
         "ethers.js"
-      ]
+      ],
+      "customField": "plugin::multi-select.multi-select"
     },
     "frontEnd": {
       "type": "customField",
-      "customField": "plugin::multi-select.multi-select",
       "options": [
         "React.js,",
         "web3.js,",
         "Apollo-Client,",
-        "GraphQL,",
-        ""
-      ]
+        "GraphQL,"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     },
     "infrastructure": {
       "type": "customField",
-      "customField": "plugin::multi-select.multi-select",
       "options": [
-        "GitHub, ",
-        "heroku, ",
-        "Git, "
-      ]
+        "GitHub,",
+        "heroku,",
+        "Git,"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     },
     "platformLink": {
       "type": "string"
